@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name</label> <br>
+        <input id="name" type="text" 
+        placeholder="Enter your name" required> <br>
+
+        <label for="email">Email</label> <br>
+        <input id:"email" type="email"
+        placeholder="Enter your email"><br>
+
+        <label for="pass">Password</label> <br>
+        <input id="pass" type="password" 
+        placeholder="Enter Password" > <br>
+
+        <label for="Phone">Phone Number</label> <br>
+        <input id="phone" type="tel" 
+        placeholder="Enter your Phone Number" > <br>
+
+        <label for="date">Date of Birth</label> <br>
+        <input id="date" type="date" > <br>
+        <br>
+        <label>Skill: </label>
+        <select name="skill">
+            <option value:"HTML">HTML</option>
+            <option value:"CSS">CSS</option>
+            <option value:"JS">JavaScript</option>
+        </select>
+
+        <section>
+            <input id="html" type="checkbox">
+            <label for="html">HTML</label>
+
+            <input id="css" type="checkbox">
+            <label for="css">CSS</label>
+
+            <input id="js" type="checkbox">
+            <label for="js">JavaScript</label>
+        </section>
+        <br>
+
+        <section>
+            <label>Gender:</label>
+
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label>
+        </section>
+        <br>
+
+        <input type="file" name="file">
+        <input type="range" max="3" min="0">
+        <input type="submit">
+        <input type="reset">
+        <br> <br>
+        
+        <button type="Submit" value"Register">Register</button>
+    </form>
+</body>
+</html>
