@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1 align="center">Student Registration Form</h1>
+    <form>
+        <table border="1" width="100%" cellpadding="8">
+            <tr>
+                <th colspan="2">Registration Form</th>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name">Full Name</label>
+                </td>
+                <td>
+                    <input id="name" type="text" placeholder="Enter your name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+                <td>
+                    <input id="email" type="email" placeholder="abc@gmail.com">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone">Mobile Number</label>
+                </td>
+                <td>
+                    <input type="tel" id="phone" placeholder="9876543210">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dob">Date of Birth</label>
+                </td>
+                <td>
+                    <input type="date" id="dob">
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender">
+                    <label for="other">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Skills</td>
+                <td>
+                    <input type="checkbox" id="html">
+                    <label for="html">HTML</label>
+                    <input type="checkbox" id="css">
+                    <label for="css">CSS</label>
+                    <input type="checkbox" id="javascript">
+                    <label for="javascript">JavaScript</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Course</td>
+                <td>
+                    <select id="course">
+                        <option>--Select Course--</option>
+                        <option>Computer Science</option>
+                        <option>Data Science</option>
+                        <option>AI & ML</option>
+                        <option>Web Development</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Address</label>
+                </td>
+                <td>
+                    <textarea id="address" rows="5" cols="35"></textarea>
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    <label for="resume">Upload Resume</label>
+                </td>
+                <td>
+                    <input type="file" id="resume">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
