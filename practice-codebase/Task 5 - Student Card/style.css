@@ -1,0 +1,43 @@
+*{
+  box-sizing:border-box;
+}
+.container{
+  width: 300px;
+  height:600px;
+  border: 3px solid black;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.box{
+  width: 120px;
+  height: 120px;
+  padding: 20px;
+  background-color: rgb(220, 220, 220);
+  border: 2px solid black;
+  border-radius: 100px;
+  margin:30px auto;
+}
+
+.container {
+  text-align: center;
+}
+.container h1{
+  text-align: center;
+  margin: 0px auto;
+}
+
+span {
+  color: blue;
+  background-color: skyblue;
+  margin: 2px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+}
