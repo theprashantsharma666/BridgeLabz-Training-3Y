@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eee;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    background-color: aqua;
+    color: white;
+}
+
+nav {
+    padding: 15px;
+    text-align: center;
+    background-color: #222;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+main section {
+    padding: 40px;
+    margin: 20px;
+    border: 2px solid #333;
+}
+
+#about {
+    background-color: #ffd6a5;
+    background-attachment: fixed;
+}
+
+#places {
+    background: linear-gradient(to right, #fff, #caffbf);
+    background-position: fixed;
+}
+
+#travel {
+    background-color: #ffd6a5;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #222;
+    color: white;
+}
