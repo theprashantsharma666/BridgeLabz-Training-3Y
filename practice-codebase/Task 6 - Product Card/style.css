@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial;
+}
+
+.product-card {
+    width: 360px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Image */
+.product-image {
+    position: relative;
+}
+
+.product-image img {
+    width: 100%;
+    display: block;
+}
+
+/* Discount */
+.discount {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    background-color: red;
+    color: white;
+
+    padding: 10px 15px;
+    border-radius: 20px;
+
+    font-weight: bold;
+}
+
+/* Wishlist */
+.wishlist {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    width: 50px;
+    height: 50px;
+
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+
+    font-size: 30px;
+}
+
+/* Details */
+.product-details {
+    padding: 30px 25px;
+}
+
+.category {
+    background-color: #3974d6;
+    color: white;
+    font-size: 20px;
+}
+
+h2 {
+    background-color: #3974d6;
+    color: white;
+    margin-top: 15px;
+    font-size: 26px;
+}
+
+/* Rating */
+.rating {
+    margin-top: 15px;
+}
+
+.stars {
+    color: #f5c518;
+    font-size: 22px;
+}
+
+.reviews {
+    color: gray;
+    font-size: 18px;
+}
+
+/* Price */
+.price {
+    margin-top: 20px;
+}
+
+.current-price {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.old-price {
+    margin-left: 15px;
+    color: gray;
+    text-decoration: line-through;
+}
+
+/* Button */
+.add-cart {
+    width: 100%;
+    margin-top: 25px;
+
+    padding: 15px;
+
+    background-color: black;
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+
+    font-size: 18px;
+}
