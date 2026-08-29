@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+}
+
+.hero {
+    height: 400px;
+    background-color: rgb(35, 26, 26);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    padding: 40px;
+    border: 2px solid #ddd;
+    outline: 1px solid #aaa;
+    margin: 20px;
+}
+
+.about {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.about img {
+    width: 200px;
+}
+
+.services {
+    display: flex;
+    gap: 20px;
+}
+
+.services div {
+    flex: 1;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+}
+
+input, textarea, button {
+    padding: 10px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
