@@ -1,0 +1,38 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.plan {
+    width: 250px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.plan a {
+    display: inline-block;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.plan-1{
+    background-color: rgb(241, 118, 118);
+}
+
+.popular {
+    border: 3px solid blue;
+    background-color: aqua;
+}
+
+.plan-2{
+    background-color: rgb(210, 33, 23);
+}
