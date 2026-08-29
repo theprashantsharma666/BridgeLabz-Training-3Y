@@ -1,0 +1,28 @@
+body {
+    background-color: #eee;
+    font-family: Georgia;
+    margin: 0;
+    padding: 30px;
+}
+
+main {
+    background-color: white;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    column-span: all;
+}
+
+.news {
+    column-count: 3;
+    column-gap: 30px;
+    text-align: justify;
+}
+
+.news img {
+    width: 150px;
+    float: left;
+    margin: 0 10px 5px 0;
+}
