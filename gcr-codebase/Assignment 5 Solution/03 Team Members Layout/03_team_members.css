@@ -1,0 +1,23 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+}
+
+.card-1{
+    background-color: aqua;
+}
