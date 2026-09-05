@@ -1,0 +1,32 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    width: 200px;
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+
+button {
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+}
+
+button:hover {
+    background-color: skyblue;
+    border: 2px solid #000;
+    transition: all 0.5 ease-out;
+}
