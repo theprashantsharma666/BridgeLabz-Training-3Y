@@ -5,14 +5,18 @@ body {
 
 .dashboard {
     display: grid;
-    grid-template-columns: 200px 1fr;
-    min-height: 100px;
+    grid-template-columns: 180px 1fr;
+    min-height: 100vx;
 }
 
 aside {
-    padding: 20px;
+    padding: 15px;
     background-color: black;
     color: white;
+}
+
+.main h1{
+    margin-left: 100px;
 }
 
 .boxes {
