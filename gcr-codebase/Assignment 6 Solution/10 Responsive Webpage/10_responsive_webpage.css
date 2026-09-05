@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+}
+
+.hero {
+    padding: 60px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px;
+}
+
+.services div {
+    padding: 30px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
