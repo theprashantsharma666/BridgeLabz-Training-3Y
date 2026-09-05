@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    min-height: 100px;
+}
+
+aside {
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.boxes div {
+    padding: 40px;
+    background-color: #eee;
+    text-align: center;
+}
