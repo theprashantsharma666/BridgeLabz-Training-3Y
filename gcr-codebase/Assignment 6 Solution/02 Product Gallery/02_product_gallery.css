@@ -1,0 +1,17 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    padding: 30px;
+    background-color: #eee;
+    border: 1px solid black;
+}
