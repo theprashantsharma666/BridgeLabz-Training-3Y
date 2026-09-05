@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+header {
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+
+section {
+    flex: 1;
+    padding: 20px;
+    background-color: #eee;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
