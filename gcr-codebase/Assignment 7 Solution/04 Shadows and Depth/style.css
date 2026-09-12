@@ -1,0 +1,38 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 2px 2px 3px gray;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    width: 200px;
+    padding: 20px;
+    background-color: lightgray;
+    transition: 0.3s;
+}
+
+.card1 {
+    box-shadow: 5px 5px 10px gray;
+}
+
+.card2 {
+    box-shadow: 0 5px 15px gray;
+}
+
+.card3 {
+    box-shadow: 0 0 15px gray;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 20px gray;
+}
