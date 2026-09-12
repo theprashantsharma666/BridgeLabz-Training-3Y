@@ -1,0 +1,40 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.box {
+    padding: 20px;
+    border-radius: 10px;
+    transition: border-color 0.3s;
+}
+
+.solid {
+    border: 3px solid black;
+}
+
+.dashed {
+    border: 3px dashed black;
+    padding: 30px;
+}
+
+.double {
+    border: 5px double black;
+    padding: 40px;
+}
+
+.groove {
+    border: 5px groove black;
+    padding: 50px;
+}
+
+.box:hover {
+    border-color: red;
+}
