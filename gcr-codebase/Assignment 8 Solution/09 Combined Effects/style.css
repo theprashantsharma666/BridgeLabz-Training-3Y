@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    box-shadow: 0 4px 8px gray;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: green;
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px gray;
+}
+
+button:active {
+    transform: scale(0.95);
+}
