@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.container div {
+    width: 200px;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+button {
+    padding: 10px 20px;
+}
+
+button:focus {
+    background-color: lightblue;
+}
+
+.active-button:active {
+    background-color: green;
+    color: white;
+}
+
+li:nth-child(2) {
+    color: red;
+    font-weight: bold;
+}
