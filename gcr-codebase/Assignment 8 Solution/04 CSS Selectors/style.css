@@ -1,0 +1,41 @@
+p {
+    margin: 10px;
+}
+
+.text {
+    color: blue;
+}
+
+#special {
+    color: red;
+}
+
+input[type="text"] {
+    padding: 10px;
+}
+
+.box > p {
+    color: green;
+}
+
+h1 + p {
+    color: purple;
+}
+
+h1 ~ p {
+    margin-left: 20px;
+}
+
+.box span {
+    color: orange;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 15px;
+    text-align: center;
+}
