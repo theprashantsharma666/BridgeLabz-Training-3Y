@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial;
+    text-align: center;
+}
+
+.principles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.box {
+    padding: 30px;
+    background-color: lightblue;
+    border-radius: 10px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.box:hover {
+    background: linear-gradient(135deg, lightblue, lightgreen);
+    color: darkblue;
+}
+
+code {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .principles {
+        grid-template-columns: 1fr;
+    }
+}
