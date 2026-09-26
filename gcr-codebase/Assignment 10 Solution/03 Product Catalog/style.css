@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: white;
+}
+
+.product-card {
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 12px gray;
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    height: 200px;
+    object-fit: cover;
+}
