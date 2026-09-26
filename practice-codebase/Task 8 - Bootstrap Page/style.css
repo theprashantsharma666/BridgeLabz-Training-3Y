@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.hero h1 {
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.projects {
+    background-color: #f8f9fa;
+}
+
+.card {
+    height: 100%;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+form {
+    padding: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer a {
+    font-size: 22px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #0d6efd !important;
+}
