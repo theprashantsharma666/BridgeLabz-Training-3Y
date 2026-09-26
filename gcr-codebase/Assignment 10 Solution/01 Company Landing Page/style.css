@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    padding: 100px 0;
+    background-color: #f5f7fa;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+}
+
+.hero p {
+    margin-bottom: 25px;
+}
+
+.hero-box {
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px gray;
+}
+
+footer {
+    margin-top: 0;
+}
+
+@media (max-width: 767px) {
+    .hero {
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    .hero-box {
+        margin-top: 30px;
+    }
+}
