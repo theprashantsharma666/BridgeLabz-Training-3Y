@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: white;
+}
+
+.card {
+    border: 1px solid #ddd;
+}
+
+footer {
+    margin-top: 30px;
+}
