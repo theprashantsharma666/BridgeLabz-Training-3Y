@@ -49,6 +49,10 @@ BridgeLabz-Training-3Y
 │   │   ├── filters/
 │   │   └── cheat-sheet-practice/
 │   └── practice-codebase/
+|
+├── JavaScript/
+│   ├── gcr-codebase/
+│   └── practice-codebase/
 │
 ├── bootstrap-practice/
 │   ├── gcr-codebase/
