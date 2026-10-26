@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box"></div>
+
+    <h1 id="heading">0</h1>
+
+    <button id="inc">Increment</button>
+    <button id="dec">Decrement</button>
+    <button id="rst">Reset</button>
+    <button id="toggle" class="active">Toggle</button>
+</body>
+
+<style>
+    .active {
+        visibility: visible;
+    }
+
+    .non-active {
+        visibility: hidden;
+    }
+
+    .positive {
+        color: green;
+    }
+
+    .negative {
+        color: red;
+    }
+
+    .neutral {
+        color: silver;
+    }
+</style>
+
+<script>
+    const incEl = document.querySelector("#inc");
+    const decEl = document.querySelector("#dec");
+    const resEl = document.querySelector("#rst");
+    const toggleEl = document.querySelector("#toggle");
+    const headingEl = document.querySelector("#heading");
+
+    let count = 0;
+
+    incEl.addEventListener("click", () => {
+        count++;
+        headingEl.textContent = count;
+        updateColor();
+    });
+
+    decEl.addEventListener("click", () => {
+        count--;
+        headingEl.textContent = count;
+        updateColor();
+    });
+
+    resEl.addEventListener("click", () => {
+        count = 0;
+        headingEl.textContent = count;
+        updateColor();
+    });
+
+    toggleEl.addEventListener("click", () => {
+        headingEl.classList.toggle("active");
+        headingEl.classList.toggle("non-active");
+    });
+
+    function updateColor() {
+        if (count > 0) {
+            headingEl.className = "positive";
+        } else if (count < 0) {
+            headingEl.className = "negative";
+        } else {
+            headingEl.className = "neutral";
+        }
+    }
+</script>
+</html>
