@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Switcher</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            padding: 50px;
+        }
+
+        body[data-theme="light"] {
+            background-color: white;
+            color: black;
+        }
+
+        body[data-theme="dark"] {
+            background-color: #222;
+            color: white;
+        }
+
+        body[data-theme="blue"] {
+            background-color: lightblue;
+            color: darkblue;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Theme Switcher</h2>
+
+    <p>Choose your favourite theme.</p>
+
+    <button id="lightButton">Light Theme</button>
+    <button id="darkButton">Dark Theme</button>
+    <button id="blueButton">Blue Theme</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
