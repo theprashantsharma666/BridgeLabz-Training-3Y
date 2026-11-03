@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Table Filter</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 30px;
+        }
+
+        input {
+            padding: 10px;
+            width: 250px;
+            margin-bottom: 15px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: lightblue;
+        }
+
+        #noResults {
+            color: red;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h2>Student Table Filter</h2>
+    
+    <input type="text" id="searchInput" placeholder="Search student name or branch...">
+
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Branch</th>
+                <th>CGPA</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Rahul</td>
+                <td>Computer Science</td>
+                <td>8.5</td>
+            </tr>
+
+            <tr>
+                <td>Aman</td>
+                <td>Mechanical</td>
+                <td>7.8</td>
+            </tr>
+
+            <tr>
+                <td>Priya</td>
+                <td>Electronics</td>
+                <td>9.1</td>
+            </tr>
+
+            <tr>
+                <td>Neha</td>
+                <td>Computer Science</td>
+                <td>8.9</td>
+            </tr>
+
+            <tr>
+                <td>Rohit</td>
+                <td>Civil</td>
+                <td>7.5</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p id="noResults">No results found</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
