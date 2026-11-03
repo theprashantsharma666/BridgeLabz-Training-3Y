@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Dropdown</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 80px;
+        }
+
+        #dropdown {
+            display: inline-block;
+            position: relative;
+        }
+
+        #dropdownButton {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #options {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background-color: white;
+            border: 1px solid black;
+        }
+
+        .option {
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .option:hover {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <h2>Custom Dropdown Menu</h2>
+
+    <div id="dropdown">
+        <button id="dropdownButton">Select an Option</button>
+        <div id="options">
+            <div class="option">HTML</div>
+            <div class="option">CSS</div>
+            <div class="option">JavaScript</div>
+            <div class="option">Python</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
